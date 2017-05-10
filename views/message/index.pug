@@ -1,0 +1,7 @@
+extends ../layout
+
+block content
+  h1 Hello world
+  each message in messages
+    = message.title
+    = message.message
